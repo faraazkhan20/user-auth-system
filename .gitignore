@@ -1,0 +1,20 @@
+# Node
+node_modules/
+.env
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+dist/
+
+# SQL Server backups
+*.bak
+
+# Markdown file
+vibeCoding.md
