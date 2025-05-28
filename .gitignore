@@ -17,7 +17,7 @@ dist/
 *.bak
 
 # Markdown file
-vibeCoding.md
+steps.md
 gitNotes.md
 
 # .prettierrc
