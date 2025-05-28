@@ -1,11 +1,13 @@
 const express = require("express");
 const cors = require("cors");
 const { getAllUsers } = require("./services/userService");
+const authRoutes = require("./routes/auth");
 
 require("dotenv").config();
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use("/auth", authRoutes);
 
 app.get("/api/users", async (req, res) => {
   try {
